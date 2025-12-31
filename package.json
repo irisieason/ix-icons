@@ -1,16 +1,19 @@
 {
-  "name": "@siemens/ix-icons",
+  "name": "@irisieason/ix-icons",
   "version": "3.3.0",
   "license": "MIT",
   "description": "Siemens iX icon library",
   "author": "Siemens AG",
-  "homepage": "https://www.github.com/siemens/ix-icons",
+  "homepage": "https://www.github.com/irisieason/ix-icons",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/siemens/ix-icons.git"
+    "url": "https://www.github.com/irisieason/ix-icons.git"
   },
   "bugs": {
-    "url": "https://www.github.com/siemens/ix/issues"
+    "url": "https://www.github.com/irisieason/ix/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "packageManager": "pnpm@10.17.0",
   "engines": {

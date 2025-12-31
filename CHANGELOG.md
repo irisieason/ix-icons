@@ -1,4 +1,4 @@
-# @siemens/ix-icons
+# @irisieason/ix-icons
 
 ## 3.3.0
 

@@ -9,7 +9,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
-    if: ${{ github.repository == 'siemens/ix-icons' }}
+    if: ${{ github.repository == 'irisieason/ix-icons' }}
     name: Release
     runs-on: ubuntu-latest
     steps:

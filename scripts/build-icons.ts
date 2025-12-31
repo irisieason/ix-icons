@@ -171,7 +171,7 @@ async function buildIcons() {
       iconsPkgPath,
       JSON.stringify(
         {
-          name: '@siemens/ix/icons',
+          name: '@irisieason/ix/icons',
           version: version,
           module: 'index.mjs',
           main: 'index.js',

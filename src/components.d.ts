@@ -17,7 +17,7 @@ export namespace Components {
          */
         "lazyLoading": boolean;
         /**
-          * Use one of our defined icon names e.g. `copy`  https://ix.siemens.io/docs/icon-library/icons  or the import variant  ``` import { rocket } from '@siemens/ix-icons/icons';  <ix-icon name={rocket}></ix-icon> ```
+          * Use one of our defined icon names e.g. `copy`  https://ix.siemens.io/docs/icon-library/icons  or the import variant  ``` import { rocket } from '@irisieason/ix-icons/icons';  <ix-icon name={rocket}></ix-icon> ```
          */
         "name"?: string;
         /**
@@ -50,7 +50,7 @@ declare namespace LocalJSX {
          */
         "lazyLoading"?: boolean;
         /**
-          * Use one of our defined icon names e.g. `copy`  https://ix.siemens.io/docs/icon-library/icons  or the import variant  ``` import { rocket } from '@siemens/ix-icons/icons';  <ix-icon name={rocket}></ix-icon> ```
+          * Use one of our defined icon names e.g. `copy`  https://ix.siemens.io/docs/icon-library/icons  or the import variant  ``` import { rocket } from '@irisieason/ix-icons/icons';  <ix-icon name={rocket}></ix-icon> ```
          */
         "name"?: string;
         /**

@@ -37,7 +37,7 @@ export class Icon {
    * or the import variant
    *
    * ```
-   * import { rocket } from '@siemens/ix-icons/icons';
+   * import { rocket } from '@irisieason/ix-icons/icons';
    *
    * <ix-icon name={rocket}></ix-icon>
    * ```

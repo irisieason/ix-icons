@@ -17,7 +17,7 @@ jobs:
       pull-requests: write
       id-token: write
     if: |
-      github.repository == 'siemens/ix-icons' &&
+      github.repository == 'irisieason/ix-icons' &&
       github.event.issue.pull_request &&
       (
         github.event.sender.login == 'danielleroux' ||
@@ -33,7 +33,7 @@ jobs:
         id: parse-sha
         continue-on-error: true
         run: |
-          if [ "${{ steps.comment-branch.outputs.head_owner }}" == "siemens" ]; then
+          if [ "${{ steps.comment-branch.outputs.head_owner }}" == "irisieason" ]; then
             echo "sha=${{ steps.comment-branch.outputs.head_sha }}" >> "${GITHUB_OUTPUT}"
           else
             sha_from_comment="$(echo $COMMENT_BODY | tr -s ' ' | cut -d ' ' -f2)"
@@ -125,5 +125,5 @@ jobs:
             A new release has been made for this PR. You can install it with:
 
             ```
-            npm i @siemens/ix-icons@${{ steps.get-version.outputs.version }}
+            npm i @irisieason/ix-icons@${{ steps.get-version.outputs.version }}
             ```
